@@ -1,5 +1,5 @@
 require.pry
-def hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
+def hello["Tim", "Tom", "Jim"] { |name| puts "Hi, #{name}" }
 i = 0
   while i < array.length
     binding.pry
