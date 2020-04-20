@@ -1,7 +1,6 @@
 require.pry
-hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
-
-  i = 0
+def hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
+i = 0
   while i < array.length
     binding.pry
     yield(array[i])
