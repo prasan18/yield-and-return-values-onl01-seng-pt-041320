@@ -1,5 +1,5 @@
 
-def hello["Tim", "Tom", "Jim"] { |name| puts "Hi, #{name}" }
+def hello[name] { |name| puts "Hi, #{name}" }
 end
 
 
